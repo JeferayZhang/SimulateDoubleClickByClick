@@ -1,6 +1,6 @@
 ﻿namespace SimulateDoubleClickByClick
 {
-    partial class Form1
+    partial class FrmTest
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmTest
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(429, 261);
+            this.Name = "FrmTest";
+            this.Text = "用单击事件模拟双击";
+            this.Load += new System.EventHandler(this.FrmTest_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
